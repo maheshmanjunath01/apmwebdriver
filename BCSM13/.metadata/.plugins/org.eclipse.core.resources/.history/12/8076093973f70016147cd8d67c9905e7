@@ -1,0 +1,27 @@
+package qsp;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class DemoD {
+	
+	public static String key="webdriver.gecko.driver";
+	public static String value="./Drivers/geckodriver.exe";
+	
+	public static void testBrowser(WebDriver driver){
+		driver.get("https://www.google.co.in");
+		String url=driver.getCurrentUrl();
+		System.out.println(url);
+		String title=driver.getTitle();
+		System.out.println(title);
+	}
+	
+	public static void main(String[] args){
+	
+		
+		System.setProperty(key, value);
+		WebDriver driver = new FirefoxDriver();
+		DemoD.testBrowser(driver);	
+		DemoD.testBrowser(WebDriver);
+	}
+}
