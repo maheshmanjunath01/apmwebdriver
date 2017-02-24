@@ -30,8 +30,8 @@ public class DemoD {
 	}*/
 	
 	public static void main(String[] args){
-		//WebDriver driver = new FirefoxDriver();
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
+		//WebDriver driver = new ChromeDriver();
 	/*	DemoD.testBrowser(driver);	
 		DemoD.testBrowser(new ChromeDriver());
 		*/
