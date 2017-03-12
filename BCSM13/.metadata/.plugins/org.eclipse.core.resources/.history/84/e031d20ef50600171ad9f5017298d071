@@ -1,0 +1,23 @@
+package qsp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class DemoH {
+
+	public static allTextFromListBox(){
+		
+		Select select = new Select();
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

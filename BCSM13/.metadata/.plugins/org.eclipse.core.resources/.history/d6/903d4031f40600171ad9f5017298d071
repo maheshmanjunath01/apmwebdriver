@@ -1,0 +1,25 @@
+package qsp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+
+public class DemoH {
+
+	public static ArrayList<String> allAllTextFromListBox(){
+		
+		List<WebElement> options = new List<WebElement>()
+
+		
+		return null;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

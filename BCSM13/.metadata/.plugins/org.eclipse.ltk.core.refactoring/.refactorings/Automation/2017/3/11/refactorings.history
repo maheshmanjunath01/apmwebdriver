@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;qsp.DemoH&apos; to &apos;DemoG&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Original element: &apos;qsp.DemoH&apos;&#x0D;&#x0A;- Renamed element: &apos;qsp.DemoG&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DemoH&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;qsp{DemoH.java[DemoH" matchStrategy="1" name="DemoG" qualified="false" references="true" similarDeclarations="false" stamp="1489301683126" textual="false" version="1.0"/>
+</session>
