@@ -1,0 +1,8 @@
+package qsp;
+
+public class DemoJ {
+
+	public class TestFirst extends TestA{
+		
+	}
+}

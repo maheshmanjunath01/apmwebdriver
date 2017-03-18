@@ -11,4 +11,8 @@
 <fullyQualifiedTypeName name="qsp.DemoH"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="qsp.DemoJ"/>
+<fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
 </qualifiedTypeNameHistroy>

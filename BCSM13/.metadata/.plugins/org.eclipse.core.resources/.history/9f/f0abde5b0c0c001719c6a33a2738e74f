@@ -1,0 +1,21 @@
+package qsp;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoJ {
+
+	public WebDriver driver;
+	public void openApplication() {
+	System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");	
+	driver = new ChromeDriver();
+	driver.get("http://www.google.com");
+	}
+	public void verifyTitle(String eTitle){
+
+	}
+	public void closeApplication(){
+		driver.quit();
+	}
+	
+}

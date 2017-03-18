@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Started Executing]]>
+    </line>
+    <line>
+      <![CDATA[Execution Complete]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12510" started-at="2017-03-18T19:17:18Z" finished-at="2017-03-18T19:17:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12510" started-at="2017-03-18T19:17:18Z" finished-at="2017-03-18T19:17:30Z">
+      <class name="qsp.TestA">
+        <test-method status="PASS" signature="testMain()[pri:0, instance:qsp.TestA@5afa04c]" name="testMain" duration-ms="12463" started-at="2017-03-19T00:47:18Z" finished-at="2017-03-19T00:47:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Started Executing]]>
+            </line>
+            <line>
+              <![CDATA[Execution Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+      </class> <!-- qsp.TestA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

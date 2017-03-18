@@ -1,0 +1,10 @@
+package qsp;
+
+import org.testng.Reporter;
+
+public class TestA{
+	
+	public void testMain(){
+		Reporter.log("dpne", true);
+	}
+}
