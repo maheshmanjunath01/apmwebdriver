@@ -1,0 +1,15 @@
+package script;
+
+import generic.BaseTest;
+import pom.LoginPage;
+
+public class Test_Case_01 extends BaseTest{
+	
+	public void testLogin(){
+		LoginPage login = new LoginPage(driver);
+		login.setUserName(UserName);
+		login.setPassword(PassWord);
+		
+	}
+
+}

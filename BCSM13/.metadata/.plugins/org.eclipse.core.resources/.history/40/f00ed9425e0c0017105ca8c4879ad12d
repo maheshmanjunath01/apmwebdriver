@@ -1,0 +1,9 @@
+package generic;
+
+public abstract class BasePage {
+
+	public BasePage(){
+		this.driver = driver;
+		
+	}
+}
