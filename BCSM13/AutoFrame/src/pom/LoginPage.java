@@ -20,6 +20,9 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//span[.='Username or Password is invalid. Please try again.']")
 	private WebElement errMsg;
 	
+	@FindBy(id="logoutLink")
+	private WebElement logoutBtn;
+	
 	public void setUserName(String username){
 		unTB.sendKeys(username);
 	}
@@ -30,6 +33,10 @@ public class LoginPage extends BasePage{
 	
 	public void clickLogin(){
 		loginBtn.click();
+	}
+	
+	public void clickLogout(){
+		logoutBtn.click();
 	}
 	
 	public void verifyErrorMessageIsPresent(){

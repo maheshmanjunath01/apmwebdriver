@@ -12,6 +12,9 @@ public class Test_Case_01 extends BaseTest{
 		login.setUserName(UserName);
 		login.setPassword(PassWord);
 		login.clickLogin();
+		login.verifyTitle("actiTIME - Enter Time-Track");
+		login.clickLogout();
+		login.verifyTitle("actiTIME - Login");
 		
 	}
 
