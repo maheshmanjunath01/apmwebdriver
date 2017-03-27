@@ -1,0 +1,29 @@
+package script;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.rules.Timeout;
+import org.testng.annotations.Test;
+
+import generic.BaseTest;
+import pom.LoginPage;
+
+public class Test_Case_03 extends BaseTest{
+
+	@Test
+	public void verifyProductVersion(){
+		
+		LoginPage login = new LoginPage(driver);
+		login.setUserName(UserName);
+		login.setPassword(PassWord);
+		login.clickLogin();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		login.clickHelp();
+		login.clickAbout();
+		login.verifyProductVersion("actiTIME 2017 Online");
+		login.clickCloseBtn();
+		login.clickLogout();
+	}
+	
+
+}

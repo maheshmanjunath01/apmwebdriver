@@ -1,0 +1,10 @@
+package script;
+
+import generic.BaseTest;
+import pom.LoginPage;
+
+public class Test_Case_03 extends BaseTest{
+	LoginPage login = new LoginPage(driver);
+	
+
+}

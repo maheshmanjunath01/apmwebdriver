@@ -1,0 +1,8 @@
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="script.Test_Case_03"/>
+      <class name="script.Test_Case_01"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,8 @@
+package script;
+
+import generic.BaseTest;
+
+public class Test_Case_02 extends BaseTest{
+	
+
+}

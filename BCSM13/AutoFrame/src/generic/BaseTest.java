@@ -1,5 +1,7 @@
 package generic;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +16,7 @@ public abstract class BaseTest implements AutoConstants {
 		System.setProperty(CHROME_KEY, CHROME_VALUE);
 		driver = new ChromeDriver();
 		driver.get(URL);
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}
 	
 	@AfterMethod

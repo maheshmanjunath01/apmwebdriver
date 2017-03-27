@@ -31,6 +31,7 @@ public abstract class BasePage {
 		}	
 	}
 	
+	
 	public void verifyElementIsPresent(WebElement element){
 		try{
 			wait.until(ExpectedConditions.visibilityOf(element));

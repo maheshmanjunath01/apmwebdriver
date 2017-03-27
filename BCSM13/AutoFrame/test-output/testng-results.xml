@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Title Matched : PASS]]>
@@ -8,16 +8,16 @@
       <![CDATA[Title Matched : PASS]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46494" started-at="2017-03-21T16:10:35Z" finished-at="2017-03-21T16:11:22Z">
+  <suite name="Suite" duration-ms="88848" started-at="2017-03-27T17:44:21Z" finished-at="2017-03-27T17:45:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46494" started-at="2017-03-21T16:10:35Z" finished-at="2017-03-21T16:11:22Z">
+    <test name="Test" duration-ms="88848" started-at="2017-03-27T17:44:21Z" finished-at="2017-03-27T17:45:50Z">
       <class name="script.Test_Case_01">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.Test_Case_01@6d78f375]" name="openApplication" is-config="true" duration-ms="27878" started-at="2017-03-21T21:40:35Z" finished-at="2017-03-21T21:41:03Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.Test_Case_01@5f375618]" name="openApplication" is-config="true" duration-ms="26307" started-at="2017-03-27T23:14:22Z" finished-at="2017-03-27T23:14:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:script.Test_Case_01@6d78f375]" name="testLogin" duration-ms="18254" started-at="2017-03-21T21:41:03Z" finished-at="2017-03-21T21:41:21Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:script.Test_Case_01@5f375618]" name="testLogin" duration-ms="18160" started-at="2017-03-27T23:14:48Z" finished-at="2017-03-27T23:15:06Z">
           <reporter-output>
             <line>
               <![CDATA[Title Matched : PASS]]>
@@ -27,11 +27,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.Test_Case_01@6d78f375]" name="closeApplication" is-config="true" duration-ms="267" started-at="2017-03-21T21:41:21Z" finished-at="2017-03-21T21:41:22Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.Test_Case_01@5f375618]" name="closeApplication" is-config="true" duration-ms="241" started-at="2017-03-27T23:15:06Z" finished-at="2017-03-27T23:15:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- script.Test_Case_01 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="script.Test_Case_03">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.Test_Case_03@1810399e]" name="openApplication" is-config="true" duration-ms="25501" started-at="2017-03-27T23:15:06Z" finished-at="2017-03-27T23:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyProductVersion()[pri:0, instance:script.Test_Case_03@1810399e]" name="verifyProductVersion" duration-ms="18240" started-at="2017-03-27T23:15:32Z" finished-at="2017-03-27T23:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.Test_Case_03@1810399e]" name="closeApplication" is-config="true" duration-ms="159" started-at="2017-03-27T23:15:50Z" finished-at="2017-03-27T23:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.Test_Case_03 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
