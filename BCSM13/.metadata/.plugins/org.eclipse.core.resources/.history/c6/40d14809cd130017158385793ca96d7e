@@ -1,0 +1,26 @@
+package script;
+
+
+import org.testng.annotations.Test;
+
+import generic.BaseTest;
+import pom.LoginPage;
+
+public class Test_Case_03 extends BaseTest{
+
+	@Test
+	public void verifyProductVersion(){
+		
+		LoginPage login = new LoginPage(driver);
+		login.setUserName(UserName);
+		login.setPassword(PassWord);
+		login.clickLogin();
+		login.clickHelp();
+		login.clickAbout();
+		login.verifyProductVersion("actiTIME 2017 Online");
+		login.clickCloseBtn();
+		login.clickLogout();
+	}
+	
+
+}

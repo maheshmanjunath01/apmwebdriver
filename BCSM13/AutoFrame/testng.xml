@@ -2,6 +2,7 @@
   <test name="Test">
     <classes>
       <class name="script.Test_Case_01"/>
+      <class name="script.Test_Case_02"/>
       <class name="script.Test_Case_03"/>
     </classes>
   </test>

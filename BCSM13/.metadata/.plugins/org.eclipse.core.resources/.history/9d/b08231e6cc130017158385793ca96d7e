@@ -1,0 +1,14 @@
+package pom;
+
+import org.openqa.selenium.WebDriver;
+
+import generic.BasePage;
+
+public class TimeTrackPage extends BasePage{
+
+	public TimeTrackPage(WebDriver driver) {
+		super(driver);
+		
+	}
+
+}

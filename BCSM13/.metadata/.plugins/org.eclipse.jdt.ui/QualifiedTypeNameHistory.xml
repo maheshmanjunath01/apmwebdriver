@@ -20,14 +20,15 @@
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.TimeoutException"/>
-<fullyQualifiedTypeName name="generic.BasePage"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-<fullyQualifiedTypeName name="generic.BaseTest"/>
-<fullyQualifiedTypeName name="pom.LoginPage"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="org.junit.rules.Timeout"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="generic.BasePage"/>
+<fullyQualifiedTypeName name="pom.TimeTrackPage"/>
+<fullyQualifiedTypeName name="pom.LoginPage"/>
+<fullyQualifiedTypeName name="generic.BaseTest"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>

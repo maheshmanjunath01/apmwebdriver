@@ -1,0 +1,16 @@
+package script;
+
+import generic.BaseTest;
+import pom.LoginPage;
+
+public class Test_Case_02 extends BaseTest {
+	
+	public void testInvalidLogin(){
+		LoginPage login = new LoginPage(driver);
+		login.setUserName("welcome");
+		login.setPassword("welcome");
+		login.verifyErrorMessageIsPresent();
+		login.clickLogout();
+	}
+
+}
